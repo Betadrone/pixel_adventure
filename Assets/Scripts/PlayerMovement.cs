@@ -19,8 +19,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 14f;
     [SerializeField] private float slowJumpVel = 2f;
 
-    private float maxFallSpeed = 20f;
-    private float gravityScaleMult = 1.5f;
     private enum MovementState
     {
         idle,
